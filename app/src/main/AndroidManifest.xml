@@ -22,6 +22,12 @@
             android:name=".HorasActivity"
             android:exported="true" />
         <activity
+            android:name=".DivisionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FtActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

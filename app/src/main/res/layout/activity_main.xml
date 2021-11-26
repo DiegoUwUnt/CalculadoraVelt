@@ -36,5 +36,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Horas a Segundos" />
+
+        <Button
+            android:id="@+id/buttonDivision"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Division" />
+
+        <Button
+            android:id="@+id/buttonft"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Metros a pies" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
