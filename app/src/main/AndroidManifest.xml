@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CalculadoraVelt">
         <activity
+            android:name=".SumaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".KmActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
