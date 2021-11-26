@@ -3,11 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/proyecto/CalculadoraVelt/app/src/main/res/layout/activity_division.xml" value="0.2" />
+        <entry key="..\:/proyecto/CalculadoraVelt/app/src/main/res/layout/activity_division.xml" value="0.25" />
         <entry key="..\:/proyecto/CalculadoraVelt/app/src/main/res/layout/activity_ft.xml" value="0.20416666666666666" />
-        <entry key="..\:/proyecto/CalculadoraVelt/app/src/main/res/layout/activity_horas.xml" value="0.36666666666666664" />
+        <entry key="..\:/proyecto/CalculadoraVelt/app/src/main/res/layout/activity_ftacm.xml" value="0.28489583333333335" />
+        <entry key="..\:/proyecto/CalculadoraVelt/app/src/main/res/layout/activity_horas.xml" value="0.25" />
         <entry key="..\:/proyecto/CalculadoraVelt/app/src/main/res/layout/activity_km.xml" value="0.36666666666666664" />
         <entry key="..\:/proyecto/CalculadoraVelt/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/proyecto/CalculadoraVelt/app/src/main/res/layout/activity_multiplicacion.xml" value="0.28489583333333335" />
         <entry key="..\:/proyecto/CalculadoraVelt/app/src/main/res/layout/activity_resta.xml" value="0.36666666666666664" />
         <entry key="..\:/proyecto/CalculadoraVelt/app/src/main/res/layout/activity_suma.xml" value="0.36666666666666664" />
       </map>

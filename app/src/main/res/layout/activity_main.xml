@@ -4,49 +4,80 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="  #394245  "
+    >
 
     <LinearLayout
         android:layout_width="409dp"
         android:layout_height="729dp"
         android:orientation="vertical"
+        android:layout_margin="10dp"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
 
         <Button
             android:id="@+id/buttonSuma"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="65dp"
+            android:layout_margin="5dp"
+            android:backgroundTint=" #32cbff "
             android:text="Suma" />
 
         <Button
             android:id="@+id/buttonResta"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="65dp"
+            android:layout_margin="5dp"
+            android:backgroundTint=" #6ac2e7  "
             android:text="Resta" />
+
+        <Button
+            android:id="@+id/buttonDivision"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_margin="5dp"
+            android:backgroundTint=" #5d8adf  "
+            android:text="Division" />
+
+        <Button
+            android:id="@+id/buttonMultiplicacion"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_margin="5dp"
+            android:backgroundTint=" #786cc5   "
+            android:text="Multiplicación" />
 
         <Button
             android:id="@+id/buttonKmaM"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="65dp"
+            android:layout_margin="5dp"
+            android:backgroundTint=" #eab4f0  "
             android:text="Kilometros a metros" />
 
         <Button
             android:id="@+id/buttonHorasAseg"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="65dp"
+            android:layout_margin="5dp"
+            android:backgroundTint="  #df8a98  "
             android:text="Horas a Segundos" />
 
         <Button
-            android:id="@+id/buttonDivision"
+            android:id="@+id/buttoncmaft"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Division" />
+            android:layout_height="65dp"
+            android:layout_margin="5dp"
+            android:backgroundTint=" #c97676  "
+            android:text="pies a centímetros" />
 
         <Button
             android:id="@+id/buttonft"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="65dp"
+            android:layout_margin="5dp"
+            android:backgroundTint=" #e48d7c  "
             android:text="Metros a pies" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

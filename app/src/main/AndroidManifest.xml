@@ -28,6 +28,12 @@
             android:name=".FtActivity"
             android:exported="true" />
         <activity
+            android:name=".MultiplicacionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FtaCmActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

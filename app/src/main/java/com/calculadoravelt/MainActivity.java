@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
     private Button buttonHorasAseg;
     private Button buttonDivision;
     private Button buttonft;
+    private Button buttonMultiplicacion;
+    private Button buttoncmaft;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,6 +64,20 @@ public class MainActivity extends AppCompatActivity {
                 abrirft( );
             }
         });
+        buttonMultiplicacion = findViewById(R.id.buttonMultiplicacion );
+        buttonMultiplicacion.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                abrirMultiplicacion( );
+            }
+        });
+        buttoncmaft= findViewById(R.id.buttoncmaft );
+        buttoncmaft.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                abrirConversion( );
+            }
+        });
     }
     private void abrirSuma() {
         Intent intent = new Intent( this , SumaActivity.class );
@@ -85,6 +101,14 @@ public class MainActivity extends AppCompatActivity {
     }
     private void abrirft() {
         Intent intent = new Intent( this , FtActivity.class );
+        startActivity( intent );
+    }
+    private void abrirMultiplicacion() {
+        Intent intent = new Intent( this , MultiplicacionActivity.class );
+        startActivity( intent );
+    }
+    private void abrirConversion() {
+        Intent intent = new Intent( this , FtaCmActivity.class );
         startActivity( intent );
     }
 

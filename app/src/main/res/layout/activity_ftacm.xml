@@ -13,29 +13,28 @@
         tools:layout_editor_absoluteY="1dp">
 
         <EditText
-            android:id="@+id/editTextNumberKm"
+            android:id="@+id/editTextNumberft"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:textColor="@color/white"
-            android:backgroundTint=" #eab4f0  "
+            android:backgroundTint=" #c97676  "
             android:inputType="number" />
 
         <EditText
-            android:id="@+id/editTextNumberM"
+            android:id="@+id/editTextNumbercm"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:textColor="@color/white"
-            android:backgroundTint=" #eab4f0  "
+            android:backgroundTint=" #c97676  "
             android:inputType="number" />
 
         <Button
-            android:id="@+id/buttonDesplegar"
+            android:id="@+id/buttonconversion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint=" #eab4f0  "
-            android:text="Convertir de Kilometros a Metros" />
-
+            android:backgroundTint=" #c97676  "
+            android:text="Convertir ft a cm" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
