@@ -11,6 +11,8 @@ public class MainActivity extends AppCompatActivity {
 
     private Button buttonSuma;
     private Button buttonKmaM;
+    private Button buttonResta;
+    private Button buttonHorasAseg;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +32,20 @@ public class MainActivity extends AppCompatActivity {
                 abrirConversionKm( );
             }
         });
+        buttonResta = findViewById(R.id.buttonResta );
+        buttonResta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                abrirResta( );
+            }
+        });
+        buttonHorasAseg = findViewById(R.id.buttonHorasAseg);
+        buttonHorasAseg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                abrirHoras( );
+            }
+        });
     }
     private void abrirSuma() {
         Intent intent = new Intent( this , SumaActivity.class );
@@ -39,4 +55,13 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent( this , KmActivity.class );
         startActivity( intent );
     }
+    private void abrirResta() {
+        Intent intent = new Intent( this , RestaActivity.class );
+        startActivity( intent );
+    }
+    private void abrirHoras() {
+        Intent intent = new Intent( this , HorasActivity.class );
+        startActivity( intent );
+    }
+
 }

@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="409dp"
@@ -13,28 +11,25 @@
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
 
-        <Button
-            android:id="@+id/buttonSuma"
+        <EditText
+            android:id="@+id/editTextNumberXR"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Suma" />
+            android:ems="10"
+            android:inputType="number" />
 
-        <Button
-            android:id="@+id/buttonResta"
+        <EditText
+            android:id="@+id/editTextNumberYR"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Resta" />
+            android:ems="10"
+            android:inputType="number" />
 
-        <Button
-            android:id="@+id/buttonKmaM"
+        <EditText
+            android:id="@+id/editTextNumberTotalR"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Kilometros a metros" />
-
-        <Button
-            android:id="@+id/buttonHorasAseg"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Horas a Segundos" />
+            android:ems="10"
+            android:inputType="number" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

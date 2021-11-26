@@ -16,6 +16,12 @@
             android:name=".KmActivity"
             android:exported="true" />
         <activity
+            android:name=".RestaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HorasActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
